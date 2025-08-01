@@ -159,6 +159,13 @@ nav ul li a {
   text-align: center;
 }
 
+.product-item {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 .subscribe {
   text-align: center;
   padding: 60px 20px;
@@ -209,7 +216,7 @@ footer {
 footer h2 {
   font-size: 25px;
   text-transform: uppercase;
-  color: #fff`;
+  color: #fff;
 }
 
 footer p {
