@@ -150,8 +150,6 @@ nav ul li a {
 }
 
 /* Corner Ribbon */
-.corner-ribbon {
-}
 
 .product-item {
   background-color: #f9f9f9;
@@ -182,20 +180,51 @@ nav ul li a {
 }
 
 footer {
-  background-color: #000;
+  background: hsla(255, 84%, 75%, 1);
+
+  background: radial-gradient(
+    circle,
+    hsla(255, 84%, 75%, 1) 43%,
+    hsla(255, 91%, 67%, 1) 100%
+  );
+
+  background: -moz-radial-gradient(
+    circle,
+    hsla(255, 84%, 75%, 1) 43%,
+    hsla(255, 91%, 67%, 1) 100%
+  );
+
+  background: -webkit-radial-gradient(
+    circle,
+    hsla(255, 84%, 75%, 1) 43%,
+    hsla(255, 91%, 67%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A68CF5", endColorstr="#845EF7", GradientType=1 );
   color: #fff;
   padding: 40px 20px;
   text-align: center;
 }
 
-.social-icons {
-  margin-top: 20px;
+footer h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #fff`;
+}
+
+footer p {
+  font-family: "Poppins", sans-serif;
 }
 
 .social-icons a {
   margin: 0 10px;
-  color: #fff;
   text-decoration: none;
+  margin-top: 20px;
+}
+
+.icon {
+  stroke: #5118ff;
+  color: #5118ff;
 }
 
 @media (max-width: 768px) {
