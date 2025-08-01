@@ -191,6 +191,12 @@ footer {
   text-align: center;
 }
 
+footer h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #fff`;
+}
+
 footer p {
   font-family: "Poppins", sans-serif;
 .social-icons {
