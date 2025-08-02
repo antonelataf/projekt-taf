@@ -23,11 +23,11 @@ body {
   margin-right: 30px;
 }
 .nav-icons {
-  stroke: #845ef7;
+  /* stroke: #845ef7; */
   margin-right: 30px;
   width: 30px;
 }
-.nav-icon {
+.icon {
   stroke: #845ef7;
   width: 25px;
   height: 20px;
